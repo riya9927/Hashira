@@ -1,0 +1,39 @@
+output 1:
+PS C:\Users\Riya\Programming\Hashira> cd "c:\Users\Riya\Programming\Hashira\" ; if ($?) { g++ program.cpp -o program } ; if ($?) { .\program }
+n = 4, k = 3
+
+Decoded point: (1, 4)
+Decoded point: (2, 7)
+Decoded point: (3, 12)
+Decoded point: (6, 39)
+
+Using points for interpolation:
+(1, 4)
+(2, 7)
+(3, 12)
+
+Secret (f(0) using Lagrange): 3
+
+Polynomial coefficients:
+a2 = 1
+a1 = 0
+a0 = 3
+
+The secret (constant term a0): 3
+
+
+output 2:
+PS C:\Users\Riya\Programming\Hashira> cd "c:\Users\Riya\Programming\Hashira\" ; if ($?) { g++ program.cpp -o program } ; if ($?) { .\program }
+n = 10, k = 7
+
+Decoded point: (1, 995085094601491)
+Decoded point: (2, 21394886326566393)
+Decoded point: (3, 196563650089608567)
+Decoded point: (4, 1016509518118225951)
+Decoded point: (5, 3711974121218449851)
+Error decoding value: 2122212201122002221120200210011020220200 in base 3
+Error decoding value: 20120221122211000100210021102001201112121 in base 3
+Error decoding value: 20220554335330240002224253 in base 6
+Error decoding value: 45153788322a1255483 in base 12
+Error decoding value: 1101613130313526312514143 in base 7
+Error: Not enough points. Need 7, got 5
